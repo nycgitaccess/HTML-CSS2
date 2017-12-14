@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Guitar Shop</title>
+   
+    <style>
+ body{
+  margin:2px;
+  
+  padding:0px 10px 0px 10px;
+  background:url(https://s26.postimg.org/5gl9b5am1/guitar-2276181_960_720.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   
+}
+
+#HeaderH1{
+  color:rgb(0,0,0);
+  background:rgb(10,109,255);
+  width:350px;
+  opacity:0.9;
+  text-align:center;
+      position: relative;
+    left: 3%;
+ 
+ 
+
+}
+  #HeaderImg{
+      width: 1200px;
+    position: absolute;
+    height: 300px;
+    padding: 10px;
+    left: 5%;
+  }
+
+#HeaderRightScrolBar{
+  position:absolute;
+ display:block;
+  right:5%;
+  width:200px;
+  padding:10px;
+  text-align:center;
+  
+  z-index:1;
+  color:white;
+  background-color:black;
+   font-family:cursive;
+  opacity:0.8;
+  
+  
+}
+.HeaderRightScrolBar{
+ 
+}
+
+/*Here is start of Navigation bar*/
+
+
+.MainNav{
+  margin:0px;
+  padding:0px;
+  text-align:center;
+  position:relative;
+  left:20%;
+  }
+.MainNav li a{
+  color:white;
+  text-decoration:none;
+}
+.MainNav li{
+  list-style-type:none;
+ float:left;
+  padding: 0px 0px 0px 0px;
+  background-color:black;
+  width:150px;
+  height:40px;
+    line-height:40px;
+    opacity:.9;
+}
+.MainNav li ul{
+  margin:0px;
+  padding:0px;
+}
+/*hidding the manu */
+.MainNav li ul li{
+  display:none;
+}
+.MainNav li a:hover{
+  background-color:blue;
+  display:block;
+}
+.MainNav li:hover ul li{
+  display:block;
+} 
+                          
+
+                            /*Here is End of Navigation bar*/
+
+
+
+/* Body container */
+.DisplayDiv{
+  
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.BodyImg{
+  width:200px;
+}
+.Ele-div{
+  border: 2px solid black;
+  margin:5px;
+}
+.BodyP{
+  border: 2px solid blue;
+  background-color:black;
+  color: white;
+ text-align:center;
+  
+}
+.BodyManuHeader{
+  background-color:black;
+  color:white;
+  width:850px;
+  padding:5px;
+  opacity:0.9;
+}
+#FirstArtical{
+ 
+  background:url("https://s26.postimg.org/cm4p1bqbd/beg.jpg");
+  color:black;
+  width:1200px;
+  text-align:center;
+  margin: auto;
+   background-repeat: no-repeat;
+  background-position:center top;
+  background-size:cover;
+  padding:5px;
+  
+}
+.BackgroundColor-Row1{
+  background:#d5d5c3;
+  width:860px;
+  opacity:0.9;
+  
+}
+.SideNav{
+   position:absolute;
+ display:block;
+  right:5%;
+  top:100%;
+  width:200px;
+  padding:10px;
+  text-align:center;
+  
+
+  color:white;
+  background-color:black;
+   
+  opacity:0.8;
+}
+.margin{
+
+}
+ 
+.button1{
+  z-index:2;
+  position:absolute;
+  left:60%;
+  width:50px;
+  background:green;
+  color:white;
+}
+
+.FirstArticalPara{
+  font-size:18px;
+  font-weight:bold;
+  
+}
+.FirstArticalPara1{
+  color:red;
+}
+/*Footer style start from here*/
+footer{
+  width:100%;
+  
+  background-color:black;
+  color:white;
+}
+.FooterArtical{
+  width:400px;
+  font-size:20px;
+  
+  
+   
+    border-right: thick double white;
+  text-align:center;
+}
+.FooterCategoryDiv{
+   border-right: thick double white;
+  padding:0px 10px 0px 10px;
+  
+}
+
+.FooterCategoryDiv ul li a{
+ text-decoration:none;
+  margin:2px;
+  padding:3px;
+  
+}
+.FooterCategoryDiv ul{
+  margin:0px;
+  padding:0px;
+  
+}
+
+.FooterCategoryDiv ul li{
+  list-style-type:none;
+  padding: 5px 0px 5px 0px;
+  
+}
+
+
+
+
+
+
+.FooterLessonDiv{
+   border-right: thick double white;
+  padding:0px 10px 0px 10px;
+}
+.FooterLessonDiv ul{
+margin:0px;
+  padding:0px;
+  
+  
+}
+.FooterLessonDiv ul li{
+  list-style-type:none;
+  padding: 5px 0px 5px 0px;
+}
+.FooterLessonDiv ul li a{
+  text-decoration:none;
+   margin:2px;
+  padding:3px;
+}
+.FooterContactDiv{
+   padding:0px 10px 0px 10px;
+   
+}
+.FooterContactDiv ul li{
+ 
+  list-style-type:none;
+}
+.FooterContactDiv ul li a{
+   text-decoration:none;
+   margin:2px;
+  padding:3px;
+} 
+.FooterContactDiv ul{
+   margin:0px;
+  padding:0px;
+}
+.MainFooterDiv{
+   display: -webkit-flex; /* Safari */
+    display: flex;
+  margin:5px 5px 0px 5px;
+  padding:5px;
+  
+}
+.FooterHeaderGreen{
+  color:green;
+}
+#G-Map{
+  width:200px;
+  margin:0px;
+  padding:0px;
+}
+
+
+      
+      </style>
+    
+  </head>
+ 
+  
+  
+  <body>
+                <!--header contain start here-->
+    <header><div id="HeaderDiv">
+      <img src="https://s26.postimg.org/z35dp6bcp/newtons-guitar-shop-uk-panoramic-01-1000-02.jpg" id="HeaderImg"/>
+    <h1 id="HeaderH1"><em>Welcome</em> to <strong>Guitar Shop</strong></h1>
+      <div Id="HeaderRightScrolBar">
+      <h2 class="HeaderRightScrolBar">Why From Here</h2>
+      <p class="HeaderRightScrolBar">We really sell dum Guitar. You can not larn if you bye from here. Only you can show off that you got a guitar.
+      >>>>>LoL<<<<<< </p>
+        </div>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <ul class="MainNav">
+     <li><a href="#">HOME</a></li>
+      <li><a href="#">CATEGORY</a>
+            <ul>
+              <li><a href="#">ACOUSTIC</a></li>
+              <li><a href="#">ELECTRIC</a></li>
+              <li><a href="#">BASS</a></li>
+              </ul>
+      </li>
+      <li><a href="#">PHOTO GALLARY</a></li>
+      <li><a href="#">LESSON</a></li>
+      <li><a href="#">CONTACT</a></li>
+      </ul>
+    
+    </div></header>
+    
+    <br/><br/>
+   
+    
+    <!--body containing start from here-->
+    
+    <!--Frist arical-->
+    <div id="FirstArtical" ><h1>Here you not only buy thing. You can learn <strong><em>How to play Guitar</em></strong></h1>
+    <p class="FirstArticalPara" >We provide some beginner lesoon.</p>
+    <p class="FirstArticalPara FirstArticalPara1" > <a href="#">Click Here For Lesson</a></p></div>
+     
+      <!-- end of Frist arical about guitar lesson-->
+     
+    
+    
+    
+                                     
+    
+    
+    
+    
+    <!--side bar-->
+   
+        <div class="SideNav" >
+       <h2>There is a lot of thing <div>accept</div>Guiter</h2>
+       <p>YOU CAN DO PROGRAMMING. if u understand thing once it will tale your all interest to bild something and yes it it will make you laze as well coz when u understand tech u gonna wish why it this way why that this way and u try to build some thing to do that job easy way.hehehe</p>
+          <br/>
+          
+          <h2>There is a lot of thing <div>accept</div>Guiter</h2>
+       <p>YOU CAN DO PROGRAMMING. if u understand thing once it will tale your all interest to bild something and yes it it will make you laze as well coz when u understand tech u gonna wish why it this way why that this way and u try to build some thing to do that job easy way.hehehe</p>
+          
+          
+          <br/>
+          <h2>There is a lot of thing <div>accept</div>Guiter</h2>
+       <p>YOU CAN DO PROGRAMMING. if u understand thing once it will tale your all interest to bild something and yes it it will make you laze as well coz when u understand tech u gonna wish why it this way why that this way and u try to build some thing to do that job easy way.hehehe</p>
+      </div>
+    
+     <!--block 1  {Acoustic Guitar}-->
+    
+    
+    
+    
+    
+    
+    
+    <h1 class="BodyManuHeader">Acoustic Guitar  <button type="button" class="button1" >More</button></h1>
+    
+  
+    
+                                         
+          <div class="DisplayDiv BackgroundColor-Row1">
+    
+              
+              
+              <div class="Ele-div"><a href="#" class="BodyImgLink" >
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+     <p class="BodyP">Price: 5$</p>
+              </div>
+    
+    <div class="Ele-div">
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+        <p class="BodyP">Price: 5$</p>
+             </a> </div>
+              
+                   <div class="Ele-div"><a href="#" class="BodyImgLink" >
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+     <p class="BodyP">Price: 5$</p>
+              </div>
+    
+    <div class="Ele-div">
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+        <p class="BodyP">Price: 5$</p>
+             </a> </div>
+              
+              
+              
+              
+            
+                      </div>
+      
+                                             <!--block 2 {Electric Guitar}-->
+    
+    
+    <br/>
+    <h1 class="BodyManuHeader">Electric Guitar <button type="button" class="button1" >More</button></h1>
+      
+     <div class="DisplayDiv BackgroundColor-Row1">
+    
+              
+              
+              <div class="Ele-div"><a href="#" class="BodyImgLink" >
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+     <p class="BodyP">Price: 5$</p>
+              </div>
+    
+    <div class="Ele-div">
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+        <p class="BodyP">Price: 5$</p>
+            </a>  </div>
+              
+                   <div class="Ele-div"><a href="#" class="BodyImgLink" >
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+     <p class="BodyP">Price: 5$</p>
+              </div>
+    
+    <div class="Ele-div">
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+        <p class="BodyP">Price: 5$</p>
+             </a> </div>
+              
+              
+            
+                      </div>
+      
+     
+      
+                                     <!--block 3 {Bass Guitar}-->
+      
+      
+        <br/>
+    <h1 class="BodyManuHeader" >Bass Guitar <button type="button" class="button1" >More</button></h1>
+      
+     <div class="DisplayDiv BackgroundColor-Row1">
+    
+              
+              
+              <div class="Ele-div"><a href="#" class="BodyImgLink" >
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+     <p class="BodyP">Price: 5$</p>
+              </div>
+    
+    <div class="Ele-div">
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+        <p class="BodyP">Price: 5$</p>
+             </a> </div>
+              
+                   <div class="Ele-div"><a href="#" class="BodyImgLink" >
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+     <p class="BodyP">Price: 5$</p>
+              </div>
+    
+    <div class="Ele-div">
+      <img src="https://s26.postimg.org/9qzx6qfp5/acoustic-guitar-149427_960_720.png" class="BodyImg">
+        <p class="BodyP">Price: 5$</p>
+             </a> </div>
+              
+              
+            
+                      </div>
+      
+      
+   
+      
+      
+      
+      
+      
+      
+      
+
+       <br/><br/><br/>      <br/><br/><br/>
+      
+      
+      <br/><br/><br/>      <br/><br/><br/><br/><br/><br/>      <br/><br/><br/><br/><br/><br/>      <br/><br/><br/><br/><br/><br/>      <br/><br/><br/>
+
+      
+      
+      
+      
+      
+      
+      <!--footer start from here-->
+      
+      
+<footer>
+  <div class="MainFooterDiv" >
+    <div class="FooterArtical" >
+    <p>Our mission is not only sell you things we provide some free steff as well. <div>Free Lesson</div>
+      <div>Free Guitar</div>
+      <div>And Lot More</div>
+    </p></div>
+    <div class="FooterCategoryDiv" >
+      <ul>
+      <li><a href="#" class="FooterHeaderGreen" >CATEGORY</a>
+            <ul>
+              <li><a href="#">ACOUSTIC</a></li>
+              <li><a href="#">ELECTRIC</a></li>
+              <li><a href="#">BASS</a></li>
+              </ul>
+        </ul>
+    </div>
+  
+  
+  <div class="FooterLessonDiv" >
+      <ul>
+      <li><a href="#" class="FooterHeaderGreen" >LESSON</a>
+            <ul>
+              <li><a href="#">BEGINNER</a></li>
+              <li><a href="#">INTERMEDIAT</a></li>
+              <li><a href="#">ADVANCED</a></li>
+              </ul>
+        </ul>
+    </div>
+  
+  
+  <div class="FooterContactDiv" >
+      <ul>
+      <li><a href="#" class="FooterHeaderGreen" >CONTACT</a></li>
+ </ul>
+    <p>Omonia-Square, <div>Athens Greece</div><div>Tel:210******</div><div>Phone:6951******</div></p>
+    </div>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50316.09032281355!2d23.728024924314777!3d37.9828315186543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd3003b288d1%3A0xf09ea1211e0728e4!2sOmonia+square!5e0!3m2!1sen!2sgr!4v1511230160625" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+      
+    </div>
+  
+  </footer>
+      
+      
+      
+      </body>
+</html>
