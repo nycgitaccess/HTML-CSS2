@@ -1,0 +1,214 @@
+#logo{
+     text-align: center;
+}
+ header{
+     background:url("images/nHederImg.jpg");
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+}
+ .navLi{
+     display:inline;
+}
+ .headerNav li:nth-child(1){
+     padding:0 400px 0 0;
+     margin-left: 0px;
+}
+ .headerNav{
+     background-color: blue;
+     padding:10px 0 10px 0;
+}
+ .navA{
+     text-decoration: none;
+     color:white;
+     font-size: 18px;
+     margin-left: 30px;
+}
+ ul{
+     list-style-type: none;
+}
+ #headerSideBar{
+     background:white;
+     width:350px;
+     text-align:left;
+     margin:20px 0px 20px 10%;
+
+     padding:10px;
+}
+ #headerSideBar li a{
+     text-decoration: none;
+     color:blue;
+}
+ #headerSideBar li{
+     padding:5px;
+
+}
+.barSpan{
+    color:gray;
+}
+ #searchDiv{
+     position:absolute;
+     top: 200px;
+     right:70px;
+}
+
+
+
+/******* Font ** Color **** Hover ***** Effect*************/
+
+a{
+  text-decoration: none;
+}
+h2{
+  color:blue;
+}
+p{
+    color:black;
+}
+
+h2:hover{
+  text-decoration: underline;
+  color:red;
+}
+.navLi .navA:hover{
+  text-decoration: underline;
+}
+#headerSideBar li a:hover{
+    color:red;
+}
+/*********sec1************/
+#section1{
+  background:rgba(211,211,211,0.5);
+  display:flex;
+  flex-flow: wrap;
+
+  padding:0 50px 0 250px;
+  margin:0px auto;
+}
+.sec1Div{
+  width:350px;
+  margin:20px;
+}
+
+/*********sec2************/
+#section2{
+  display:flex;
+  flex-flow: wrap;
+
+  padding:0 50px 0 250px;
+  margin:0px auto;
+}
+.sec2Div{
+  width:350px;
+  margin:20px;
+
+}
+.sec2DivImg{
+  width:100%;
+}
+
+
+
+
+/*********sec3************/
+
+#section3,#newsH1{
+
+  display:flex;
+  flex-flow: wrap;
+
+  padding:0 50px 0 250px;
+  margin:0px auto;
+
+}
+.sec3Div{
+  width:350px;
+  margin:20px;
+
+}
+
+
+/*********sec4************/
+
+#section4{
+  display:flex;
+  flex-flow: wrap;
+
+  padding:0 50px 0 250px;
+  margin:0px auto;
+}
+.sec4Div{
+  width:350px;
+  margin:20px;
+  border: 2px solid gray;
+  text-align:center;
+}
+.firstboxC2{
+  color:blue;
+}
+.sec4H2FirstBox{
+
+  font-size:50px;
+}
+
+  .sec4H1{
+    display:flex;
+    flex-flow: wrap;
+
+    padding:0 50px 0 250px;
+    margin:0px auto;
+    font-size:20px;
+    color:blue;
+  }
+
+
+
+  #section5{
+    display:flex;
+    flex-flow: wrap;
+
+    padding:0 50px 0 250px;
+    margin:0px auto;
+    background-color: #01689b;
+
+
+  }
+  #fpara{.Language ul li
+    color:white;
+  }
+  .fDiv{
+    width:350px;
+    margin:20px;
+    color:white;
+
+  }
+
+
+
+
+
+
+.Language{
+
+  text-align:center;
+  background:gray;
+  color:black;
+  padding:0 10px 0 10px;
+
+}
+.Language ul li{
+  display:inline;
+  padding:5px 20px 5px 20px;
+  text-decoration: none;
+  font-size:22px;
+}
+
+
+
+
+@media screen and (min-width:1024){
+.sec1Div{
+  width:33%;
+}
+
+  }
