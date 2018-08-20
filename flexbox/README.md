@@ -1,6 +1,9 @@
 #flexbox
 ---------------------Hello
-So upload this file when i was learning HTML and CSS. I upload This file after full fill some learning goals. The goals were:
+
+So upload this file when i was learning HTML and CSS.
+I upload This file after full fill some learning goals.
+The goals were:
 
 • The division of labor between HTML and CSS
 
