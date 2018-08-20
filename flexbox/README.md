@@ -37,7 +37,6 @@ The goals were:
 				
  • External files: relative and absolute paths
  
- • Getting to know your text editor
 ---------------------------------------------------------------------------------
 So this file contain the below listed things:
 * Adding a Google font
